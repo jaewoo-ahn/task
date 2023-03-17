@@ -10,6 +10,9 @@ header {
   margin: auto;
 }
 
+.button-box {
+  display: flex;
+}
 img {
   width: 108px;
 }
@@ -20,8 +23,8 @@ button {
   color: #222222;
   font-size: 16px;
   font-weight: 600;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
   display: none;
 }
 
@@ -61,4 +64,18 @@ button {
     border: 0;
     padding: 0;
   }
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart {
+  width: 35px;
+  margin: 15px;
+}
+.heart {
+  width: 28px;
+  margin: 15px;
 }
